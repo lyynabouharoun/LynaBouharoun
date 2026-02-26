@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- --------- UNICONS ---------- -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+
+    <!-- --------- CSS ---------- -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- --------- FAVICON ---------- -->
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+
+    <title>Portfolio</title>
+</head>
+<body>
+   <div class="container">
+    <!-- --------------- HEADER --------------- -->
+      <nav id="header">
+        <div class="nav-logo">
+            <p class="nav-name">Lyna</p>
+            <span>.</span>
+        </div>
+        <div class="nav-menu" id="myNavMenu">
+            <ul class="nav_menu_list">
+                <li class="nav_list">
+                    <a href="#home" class="nav-link active-link">Home</a>
+                    <div class="circle"></div>
+                </li>
+                <li class="nav_list">
+                    <a href="#about" class="nav-link">About</a>
+                    <div class="circle"></div>
+                </li>
+                <li class="nav_list">
+    <a href="#certificates" class="nav-link">Certificates</a>
+    <div class="circle"></div>
+</li>
+
+                <li class="nav_list">
+                    <a href="#projects" class="nav-link">Projects</a>
+                    <div class="circle"></div>
+                </li>
+                <li class="nav_list">
+                    <a href="#contact" class="nav-link">Contact</a>
+                    <div class="circle"></div>
+                </li>
+            </ul>
+        </div>
+    <div class="nav-button">
+  <button class="btn" id="downloadBtn">
+    Download CV <i class="uil uil-file-alt"></i>
+  </button>
+</div>
+
+        
+          <div class="nav-menu-btn">
+            <i class="uil uil-bars" onclick="myMenuFunction()"></i>
+        </div> 
+        </div>
+      </nav>
+
+
+    <!-- -------------- MAIN ---------------- -->
+    <main class="wrapper">
+       <!-- -------------- FEATURED BOX ---------------- -->
+       <section class="featured-box" id="home">
+          <div class="featured-text">
+            <div class="featured-text-card">
+                <span>Lyna Bouharoun</span>
+            </div>
+            <div class="featured-name">
+                <p>I'm a <span class="typedText"></span></p>
+            </div>
+            <div class="featured-text-info">
+                <p>Master’s student in Artificial Intelligence and web developer project manager, passionate about building efficient and scalable web applications, with a strong interest in deep learning and AI-driven solutions.
+                </p>
+            </div>
+         <div class="featured-text-btn">
+  <a href="#contact">
+    <button class="btn blue-btn">Hire Me</button>
+  </a>
+
+  <a href="docs/MyCV.pdf" download class="btn">
+    Download CV <i class="uil uil-file-alt"></i>
+  </a>
+</div>
+<div class="social_icons">
+  <a href="https://www.instagram.com/lyynabouharoun/" target="_blank" rel="noopener noreferrer" class="icon">
+    <i class="uil uil-instagram"></i>
+  </a>
+  <a href="https://www.linkedin.com/in/lyna-bouharoun-3a38ab222/ " target="_blank" rel="noopener noreferrer" class="icon">
+    <i class="uil uil-linkedin-alt"></i>
+  </a>
+  <a href="https://github.com/lyynabouharoun" target="_blank" rel="noopener noreferrer" class="icon">
+    <i class="uil uil-github-alt"></i>
+  </a>
+</div>
+
+          </div>
+          <div class="featured-image">
+            <div class="image">
+                <img src="images/WhatsApp Image 2025-05-30 at 20.26.55_182c3680.jpg" alt="avatar">
+            </div>
+          </div>
+          <div class="scroll-icon-box">
+            <a href="#about" class="scroll-btn">
+                <i class="uil uil-mouse-alt"></i>
+                <p>Scroll Down</p>
+            </a>
+          </div>
+
+       </section>
+       <!-- -------------- ABOUT BOX ---------------- -->
+       <section class="section" id="about">
+          <div class="top-header">
+            <h1>About Me</h1>
+          </div>
+          <div class="row">
+            <div class="col">
+                <div class="about-info">
+                    <h3>Hi, I’m Lyna</h3>
+                    <p> I am a Python developer, web developer project manager, and Master’s student in Artificial Intelligence, passionate about building intelligent, data-driven digital solutions. My work focuses on AI, web development, and data science — designing scalable backend systems, developing smart web applications, and turning data into actionable insights.
+
+I actively explore Artificial Intelligence through hands-on projects in Reinforcement Learning and Deep Learning using PyTorch, applying machine learning techniques to solve real-world problems. Alongside development, I lead and manage tech projects, ensuring efficient collaboration, clear timelines, and high-quality results.
+
+I thrive at the intersection of AI, data, and web technologies where code, analytics, and strategy come together to transform ideas into impactful solutions.
+
+
+                    </p>
+                    <div class="about-btn">
+                      
+                    </div>
+                </div>
+            </div>
+    <div class="col">
+
+    <!-- AI & Machine Learning -->
+    <div class="skills-box">
+        <div class="skills-header">
+            <h3>Artificial Intelligence</h3>
+        </div>
+        <div class="skills-list">
+            <span>Python</span>
+            <span>Machine Learning</span>
+            <span>Deep Learning</span>
+            <span>PyTorch</span>
+            <span>Reinforcement Learning</span>
+            <span>Neural Networks</span>
+            <span>Model Training</span>
+            <span>Data Preprocessing</span>
+        </div>
+    </div>
+
+    <!-- Web Development -->
+    <div class="skills-box">
+        <div class="skills-header">
+            <h3>Web Development</h3>
+        </div>
+        <div class="skills-list">
+            <span>Flask</span>
+            <span>REST APIs</span>
+            <span>Backend Architecture</span>
+            <span>Authentication Systems</span>
+        </div>
+    </div>
+
+    <!-- Data Science -->
+    <div class="skills-box">
+        <div class="skills-header">
+            <h3>Data Science</h3>
+        </div>
+        <div class="skills-list">
+            <span>Pandas</span>
+            <span>NumPy</span>
+            <span>Data Analysis</span>
+            <span>Data Visualization</span>
+            <span>Feature Engineering</span>
+        </div>
+    </div>
+
+    <!-- Database & Tools -->
+    <div class="skills-box">
+        <div class="skills-header">
+            <h3>Database & Tools</h3>
+        </div>
+        <div class="skills-list">
+            <span>MySQL</span>
+            <span>PostgreSQL</span>
+            <span>Git</span>
+           
+        </div>
+    </div>
+
+</div>
+
+
+            </div>
+          </div>
+       </section>
+<section id="certificates" class="section">
+  <div class="top-header">
+    <h1>My Certificates</h1>
+    <span>A few highlights of my achievements</span>
+  </div>
+  <div class="certificate-container">
+    <div class="certificate-box">
+      <h3>Google UX Design</h3>
+      <p>Foundations of User Experience Design</p>
+      <a href="https://www.coursera.org/account/accomplishments/verify/749Y6CKPU3SC" class="btn" target="_blank">View Certificate</a>
+    </div>
+    <div class="certificate-box">
+      <h3>Bachelor's Degree in Computer Science</h3>
+      <p>UMBB -  M'Hamed Bougara University of Boumerdès, Algeria  (Completed)</p>
+      <a href="#" class="btn disabled" onclick="return false;">Certificate Pending</a>
+    </div>
+    <div class="certificate-box">
+      <h3>CSE Club Participation</h3>
+      <p>ES ESMS Computer Science Event Certificate</p>
+      <a href="images/1739544382775.jpeg" class="btn" target="_blank">View Certificate</a>
+    </div>
+  </div>
+</section>
+
+     <!-- -------------- PROJECT BOX ---------------- -->
+
+<section class="section" id="projects">
+  <div class="top-header">
+    <h1>Projects</h1>
+  </div>
+  <div class="project-container">
+
+    <div class="project-box">
+      <i class="uil uil-robot"></i>
+      <h3>Autonomous Lunar Landing</h3>
+      <label>Reinforcement learning AI model simulating optimized lunar landings.</label>
+    </div>
+
+    <div class="project-box">
+      <i class="uil uil-palette"></i>
+      <h3>Art Gallery Website</h3>
+      <label>Front-end website with responsive design showcasing artwork beautifully.</label>
+    </div>
+
+    <div class="project-box">
+      <i class="uil uil-laptop-cloud"></i>
+      <h3>Full-Stack Department Website</h3>
+      <label>University Computer Science department web app integrating front & back-end.</label>
+    </div>
+
+    <div class="project-box">
+      <i class="uil uil-book"></i>
+      <h3>École de Formation Website</h3>
+      <label>Front-end site for a training school to present courses and engage students.</label>
+    </div>
+
+    <div class="project-box">
+      <i class="uil uil-user-circle"></i>
+      <h3>Personal Portfolio</h3>
+      <label>Modern portfolio site highlighting skills, projects, and experience.</label>
+    </div>
+<div class="project-box">
+  <i class="uil uil-rocket"></i>
+  <h3>Autonomous Lunar Landing Website</h3>
+  <label>Interactive front-end site explaining the reinforcement learning lunar landing AI project.</label>
+</div>
+  </div>
+</section>
+
+    <!-- -------------- CONTACT BOX ---------------- -->
+
+<section class="section" id="contact">
+  <div class="top-header">
+    <h1>Get in touch</h1>
+    <span>Do you have a project in your mind, contact me here</span>
+  </div>
+  <div class="row">
+    <div class="col">
+      <div class="contact-info">
+        <h2>Find Me <i class="uil uil-corner-right-down"></i></h2>
+        <p><i class="uil uil-envelope"></i> Email: lynabouharoun9@gmail.com</p>
+        <p><i class="uil uil-phone"></i> Tel: +213 540503263</p>
+      </div>
+    </div>
+
+    <div class="col">
+     <form action="https://formsubmit.co/lynabouharoun9@gmail.com" method="POST">
+  <!-- HIDDEN FIELDS -->
+  <input type="hidden" name="_captcha" value="false">
+
+  <!-- NAME + EMAIL -->
+  <div class="form-inputs">
+    <input type="text" class="input-field" name="name" placeholder="Name" required>
+    <input type="email" class="input-field" name="email" placeholder="Email" required>
+  </div>
+
+  <!-- MESSAGE -->
+  <div class="text-area">
+    <textarea name="message" placeholder="Message" required></textarea>
+  </div>
+
+  <!-- BUTTON -->
+  <div class="form-button">
+    <button type="submit" class="btn">Send <i class="uil uil-message"></i></button>
+  </div>
+</form>
+
+    </div>
+  </div>
+</section>
+
+    </main>
+
+
+    <!-- --------------- FOOTER --------------- -->
+    <footer>
+        <div class="top-footer">
+            <p>Lyna Bouharoun .</p>
+        </div>
+        <div class="middle-footer">
+            <ul class="footer-menu">
+                <li class="footer_menu_list">
+                    <a href="#home">Home</a>
+                </li>
+                <li class="footer_menu_list">
+                    <a href="#about">About</a>
+                </li>
+
+
+                     <li class="footer_menu_list">
+    <a href="#certificates">Certificates</a>
+  
+</li>
+                <li class="footer_menu_list">
+                    <a href="#projects">Projects</a>
+                </li>
+                <li class="footer_menu_list">
+                    <a href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+        <div class="footer-social-icons">
+           <a href="https://www.instagram.com/lyynabouharoun/" target="_blank" rel="noopener noreferrer" class="icon">
+    <i class="uil uil-instagram"></i>
+  </a>
+  <a href="https://www.linkedin.com/in/lyna-bouharoun-3a38ab222/ " target="_blank" rel="noopener noreferrer" class="icon">
+    <i class="uil uil-linkedin-alt"></i>
+  </a>
+  <a href="https://github.com/lyynabouharoun" target="_blank" rel="noopener noreferrer" class="icon">
+    <i class="uil uil-github-alt"></i>
+  </a>
+        </div>
+        <div class="bottom-footer">
+            <p>Copyright &copy; <a href="#home" style="text-decoration: none;">Lyna Bouharoun</a> - All rights reserved</p>
+        </div>
+    </footer>
+
+    </div>
+
+
+
+
+    <!-- ----- TYPING JS Link ----- -->
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+       <!-- ----- SCROLL REVEAL JS Link----- -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- ----- MAIN JS ----- -->
+    <script src="main.js"></script>
+</body>
+</html>
